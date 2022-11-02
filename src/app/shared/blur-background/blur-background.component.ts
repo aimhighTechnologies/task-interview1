@@ -1,0 +1,26 @@
+import {
+  Component,
+  EventEmitter,
+  HostListener,
+  Input,
+  OnInit,
+  Output,
+} from '@angular/core';
+
+@Component({
+  selector: 'app-blur-background',
+  templateUrl: './blur-background.component.html',
+  styleUrls: ['./blur-background.component.scss'],
+})
+export class BlurBackgroundComponent implements OnInit {
+  @Input() Visible = false;
+  @Output() Closed = new EventEmitter();
+  constructor() {}
+
+  ngOnInit(): void {}
+
+  @HostListener('click')
+  closeBackdrop(): void {
+    this.Closed.emit(true);
+  }
+}

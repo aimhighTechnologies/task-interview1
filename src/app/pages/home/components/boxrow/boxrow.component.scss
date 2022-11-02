@@ -1,0 +1,29 @@
+h1 {
+  font-size: 48px;
+}
+p {
+  color: #dadcde;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.box-row,
+.john-row {
+  background-color: #f7f8fb;
+  clear: both;
+  position: relative;
+}
+.john-row {
+  height: 628px;
+}
+.box-row .box-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49.7%;
+}
+.box-row .box-image2,
+.box-row .box-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}

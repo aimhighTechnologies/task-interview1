@@ -1,0 +1,35 @@
+h1 {
+  font-size: 58px;
+}
+p {
+  color: #dadcde;
+  font-size: 19px;
+  line-height: 36px;
+}
+
+.main-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0 0 65px #dae4ef;
+  color: #43a9ff;
+  font-size: 14px;
+  height: 51px;
+  line-height: 18px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 229px;
+}
+.main-footer {
+  // background-image: url(../../../assets/home/bg-footer.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 1400px;
+  width: 100%;
+}
+.main-footer p {
+  margin: 130px 0 10px 0;
+}
+.main-footer .main-button {
+  margin-top: 90px;
+}

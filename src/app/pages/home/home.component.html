@@ -1,0 +1,17 @@
+<div class="body">
+  <app-header></app-header>
+
+  <app-boxrow></app-boxrow>
+
+  <app-features></app-features>
+  <app-profile></app-profile>
+
+  <app-footer (isDownload)="openModal($event)"></app-footer>
+  <app-blur-background
+    *ngIf="isDownload"
+    [Visible]="isDownload"
+    (Closed)="closeModal()"
+  >
+  </app-blur-background>
+  <app-modal *ngIf="isDownload"></app-modal>
+</div>
