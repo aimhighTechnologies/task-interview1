@@ -15,17 +15,6 @@ import { FooterModule } from '../layout/footer/footer.module';
 
 @NgModule({
   declarations: [HomeComponent],
-  imports: [
-    CommonModule,
-    FormsModule,
-    HomeRoutingModule,
-    HeaderModule,
-    FooterModule,
-    OfferModule,
-    BoxrowModule,
-    featuresModule,
-    ProfieModule,
-    SharedModule,
-  ],
+  imports: [CommonModule, FormsModule, HomeRoutingModule, SharedModule],
 })
 export class HomeModule {}
